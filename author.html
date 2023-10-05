@@ -11,8 +11,8 @@
     </style>
 </head>
 
-<body>
-    <h1 class="text-primary shadow">Author entry Sowmya Reddy</h1>
+<body style="background-color: lavender;color:skyblue;text-align: center;">
+    <h1 class="text-primary shadow" style="font-family: serif;">Author entry Sowmya Reddy</h1>
     <form>
         &nbsp;&nbsp;&nbsp;<b><label for="author_name">The hidden author name</label></b>
         &nbsp;&nbsp;&nbsp;<input type="password" id="author_name" name="author_name" value="Dickens"> <br>
@@ -59,17 +59,17 @@
             var image = document.getElementById("varanasi");
             switch (useImage) {
                 case 1: {
-                    image.src = "antigua.jpg";
+                    image.src = "Omaha.jpg";
                     useImage = 2;
                     break;
                 }
                 case 2: {
-                    image.src = "rome.jpg";
+                    image.src = "Pennsylvania.jpg";
                     useImage = 3;
                     break;
                 }
                 case 3: {
-                    image.src = "varanasi.jpg";
+                    image.src = "Beijing.jpg";
                     useImage = 1;
                     break;
                 }
@@ -77,7 +77,7 @@
         }
     </script>
     <div>
-        <img src="varanasi.jpg" id="varanasi" height=100 width=100 alt="Image of Varanasi" onclick="selectImage()"
+        <img src="Omaha.jpg" id="Omaha" height=100 width=100 alt="Image of Omaha" onclick="selectImage()"
             class="ml-3 img-thumbnail">
     </div>
 </body>
