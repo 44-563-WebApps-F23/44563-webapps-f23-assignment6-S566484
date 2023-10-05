@@ -17,7 +17,24 @@
     <button onclick="tips()">Show tip</button>
 
     <p id="result">Tips are:</p>
-
+    <div class="container">
+       <form>
+        <div class="form-group">
+        <label style="color:rgb(128, 5, 89)" for="operation"><h4>Choose Operation: </h4></label>
+        <input type="radio" id="sum" name="operation" value="sum" onclick="chooseOp()"> 
+        <label for="sum">Sum</label><br>
+        </div><br>
+        <div class="form-group">
+        <input type="radio" id="difference" name="operation" value="difference" onclick="chooseOp()"> 
+        <label for="difference">Difference</label><br>
+        </div><br>
+        <div class="form-group">
+        <input type="radio" id="product" name="operation" value="product" onclick="chooseOp()">
+        <label for="product">Product</label>
+        <br>
+        </div>
+        <br>
+    </form>
     <script>
         function tips() {
             // Get base amount and tip percent from input fields
